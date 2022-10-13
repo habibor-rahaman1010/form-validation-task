@@ -1,0 +1,112 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 103vh;
+    background-color: rgb(22, 108, 165);
+}
+
+#create-account-form {
+    width:600px;
+    padding:20px;
+    text-transform: uppercase;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.title h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 80, 145);
+    font-weight: 500;
+}
+
+.input-group {
+    margin:20px 0; 
+    position:relative;
+}
+
+.input-group label {
+    display:inline-block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display:block;
+    width:100%;
+    padding:10px;   
+}
+
+.error input {
+    border:3px red solid;
+}
+
+.success input {
+    border:3px green solid;
+}
+
+ .input-group i {
+     position:absolute;
+     right:10px;
+     top:35px;
+     visibility: hidden;
+ }
+
+
+ .success i.fa-check-circle{
+     visibility: visible;
+     color:green;
+ }
+
+ .error i.fa-exclamation-circle {
+    visibility: visible;
+    color:red;
+}
+
+
+ .input-group p {
+     font-size: 15px;
+     color:red;
+     visibility: hidden;
+ }
+
+ .error p {
+     visibility: visible;
+     padding: 7px 0;
+ }
+
+ .btn {
+     width:100%;
+     padding:10px;
+     font-size: 20px;
+     background-color: rgb(0, 130, 206);
+     color:#fff;
+     text-transform: uppercase;
+     border:none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <script src="https://kit.fontawesome.com/2bbac3a66c.js" crossorigin="anonymous" ></script>
+</head>
+<body>
+    <form  id="create-account-form"  method="GET">
+        
+        <div class="title">
+            <h2>Register</h2>
+        </div>
+
+        <!-- FIRST NAME -->
+        <div class="input-group">
+            <label for="username">First Name</label>
+            <input type="text" id="fname" placeholder="First Name" name="fname">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+           <!-- LAST NAME -->
+           <div class="input-group">
+            <label for="username">Last Name</label>
+            <input type="text" id="lname" placeholder="Last Name" name="lname">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+           <!-- FULL NAME -->
+           <div class="input-group">
+            <label for="username">Full Name</label>
+            <input type="text" id="fullname" placeholder="Full Name" name="fullname">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+        <!-- EMAIL -->
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" name="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+           <!-- PHONE NUMBER -->
+           <div class="input-group">
+            <label for="username">PHONE</label>
+            <input type="number" id="phone" placeholder="Phone" name="phone">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+           <!-- BIRTHDAY -->
+           <div class="input-group">
+            <label for="username">Birthday</label>
+            <input type="date" id="birthday" placeholder="Name" name="birthday">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" name="password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+
+        <!-- CONFIRM PASSWORD -->
+        <div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Password" name="confirmpassword">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <p>Error Message</p>
+        </div>
+
+        <button type="submit" class="btn">Resgister</button>
+    </form>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
